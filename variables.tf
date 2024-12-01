@@ -1654,3 +1654,9 @@ variable "putin_khuylo" {
   type        = bool
   default     = true
 }
+
+variable "create_network_firewall" {
+  description = "Controls if AWS Network Firewall should be created"
+  type        = bool
+  default     = false
+}
